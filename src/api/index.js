@@ -19,7 +19,8 @@ export default {
   getApps:function () {
     return MobileResource.get({id: 'getApps'})
   },
-  //article
+
+  //article helo
   getIndexImage:function () {
     return ArticleResource.get({id:'getIndexImage'})
   },
