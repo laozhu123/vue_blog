@@ -21,6 +21,7 @@ export default {
   },
 
   //article helo
+  //test auto save
   getIndexImage:function () {
     return ArticleResource.get({id:'getIndexImage'})
   },
