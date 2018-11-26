@@ -2,7 +2,7 @@
 <div class="settings-box">
   <div class="settings-container">
     <h2 class="title">App 下载</h2>
-    <hr>helo motor</hr>
+    <hr></hr>
       <div v-for="(items,index) in apps" :key="index"  class="row mobile-apps">
           <p class="version">{{items.name}}版 
             <a :href="items.gitUrl" target="_blank"><i class="fa fa-github"></i></a>

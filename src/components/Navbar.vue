@@ -2,7 +2,7 @@
 		<div class="navbar-box navbar-skin">
 		  <div class="navbar-menu">
       		<router-link :to="{ path: '/' }" class="navbar-item logo" :class="{'active':$route.name !== 'apps'}" title="首页">
-						Hu
+						Hm
 					</router-link>
       		<router-link :to="{ path: '/apps',activeClass: 'active'}" class="navbar-item mobile" active-class="active" title="移动应用">
 						<i class="fa fa-mobile"></i>
@@ -10,7 +10,7 @@
 		  </div>   
 
 		  <div class="navbar-expanded">
-		      <div>
+		      <!-- <div>
 			      <a class="expanded-var angular2" href="//angular2.jackhu.top" title="angular2.x版">
 			      </a>
 			      <a class="expanded-var vue" href="//vue.jackhu.top" title="Vue版">
@@ -24,7 +24,7 @@
 		        	<i v-else class="fa fa-sun-o"></i>
 		        </a>
 		      </div>
-	        
+	         -->
 		      <div v-if="auth.token && auth.user">
 		        <a href="javascript:;" class="navbar-item expanded-logout" @click="logout()" title="登出">
 		            <i class="fa fa-sign-out"></i>
