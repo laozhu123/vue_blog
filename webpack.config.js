@@ -150,7 +150,7 @@ if (debug) {
   )
   config.devServer = {
     contentBase: path.join(__dirname, 'src'),
-    port: 3000,
+    port: 3001,
     host: 'localhost',
     historyApiFallback: true,
     inline: true,
