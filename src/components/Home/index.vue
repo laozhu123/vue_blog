@@ -34,6 +34,7 @@ export default {
     })
   },  
   created(){
+    console.log('helo motor')
     if(this.indexImg === ''){
       this.getIndexImage()
     }
