@@ -3,10 +3,10 @@
 //   :'http://localhost:9000/'
 
 // export const API_ROOT =  'https://api.jackhu.top/'
-export const API_ROOT =  'http://127.0.0.1:9000/' 
+export const API_ROOT =  'http://121.43.161.232:9000/' 
 
-export const CookieDomain = (process.env.NODE_ENV === 'dev')
-  ? '.jackhu.top'
-  : ''
+// export const CookieDomain = (process.env.NODE_ENV === 'dev')
+//   ? '.jackhu.top'
+//   : ''
 
-// export const CookieDomain = ''
+export const CookieDomain = ''
